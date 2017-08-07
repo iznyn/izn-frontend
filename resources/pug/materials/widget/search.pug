@@ -1,0 +1,18 @@
+//-
+//- Widget Search
+//-
+.widget__search
+    a._trigger(href="#")
+        i.icon-magnifier
+
+    ._search--form
+        form(action="", method="get")
+            ._search--form--fields
+                ._search--form--input
+                    input(type="text", name="s", placeholder="Enter your search term")
+                ._search--form--submit
+                    button(type="submit")
+                        i.icon-magnifier
+
+        a._search--close(href="#")
+            i.icon--close
